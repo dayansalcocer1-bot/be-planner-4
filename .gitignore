@@ -1,0 +1,21 @@
+# Dependencias
+node_modules
+
+# Build de producción
+dist
+dist-ssr
+
+# Vercel
+.vercel
+
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
