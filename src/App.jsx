@@ -2319,9 +2319,9 @@ export default function BePlanner() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center py-6" style={{ background: "#050607" }}>
+    <div className="h-dvh flex items-center justify-center sm:min-h-screen sm:h-auto sm:py-6" style={{ background: "#050607" }}>
       <style>{FONTS}</style>
-      <div className="w-full max-w-sm rounded-[2.2rem] overflow-hidden flex flex-col bp-body" style={{ background: C.bg, height: 780, boxShadow: "0 25px 60px rgba(0,0,0,0.6)", border: "8px solid #000" }}>
+      <div className="w-full h-dvh sm:h-[780px] sm:max-w-sm rounded-none sm:rounded-[2.2rem] border-0 sm:border-[8px] sm:border-black shadow-none sm:shadow-[0_25px_60px_rgba(0,0,0,0.6)] overflow-hidden flex flex-col bp-body" style={{ background: C.bg }}>
 
         {!authed ? (
           <div className="flex-1" style={{ background: C.bg }}>
